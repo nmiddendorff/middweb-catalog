@@ -1,6 +1,6 @@
 # Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+https://nmiddendorff.github.io/middweb-catalog/
 
 ### Installation
 
@@ -26,16 +26,4 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This app is deployed using Github Actions and Github Pages. When a PR is merged into the `main` branch, the deployment workflow will build the app and dump the artifacts into the `gh-pages` branch.
