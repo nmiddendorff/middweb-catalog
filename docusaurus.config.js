@@ -14,7 +14,7 @@ const config = {
 
   // Important stuff for deploying to GitHub Pages
   url: "https://nmiddendorff.github.io", // Your website URL
-  baseUrl: "/",
+  baseUrl: "/middweb-catalog/",
   projectName: "nmiddendorff.github.io",
   organizationName: "nmiddendorff",
   trailingSlash: false,
