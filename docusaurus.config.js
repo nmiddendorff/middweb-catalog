@@ -66,16 +66,11 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "web-development",
             position: "left",
             label: "My Stuff",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
         ],
       },
       footer: {
